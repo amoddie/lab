@@ -30,5 +30,7 @@
   "codeAppScaffolded": true,
   "formScriptsScaffolded": true,
   "ribbonScaffolded": true,
-  "gridControlScaffolded": true
+  "gridControlScaffolded": true,
+  "pluginsScaffolded": true,
+  "logicSolutionScaffolded": true
 }
