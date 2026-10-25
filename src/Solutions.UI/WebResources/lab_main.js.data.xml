@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{bdf47ae8-b35b-4403-9b3c-98abb33fe649}</WebResourceId>
+  <Name>lab_main.js</Name>
+  <DisplayName>main.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/lab_main.jsBDF47AE8-B35B-4403-9B3C-98ABB33FE649</FileName>
+</WebResource>
