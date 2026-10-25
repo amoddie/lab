@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8689669c-df41-444d-94bd-181794eb8ef0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{c95aedf9-80ac-403d-a868-72d89899b02d}" IsUserDefined="1" name="general" labelid="{fce2bb62-fda2-411a-a80b-cb7fc78cfc51}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{a2424dd8-6aa4-4ceb-a4d7-1381b203000d}" labelid="{b2ed7848-7487-4030-ad30-46d802db9d45}" name="general">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8F8E2060-F101-4723-ACF9-C99693EC9B42}" labelid="{5E12B3F1-50B7-45D9-9574-DB9B2CD11E62}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="lab_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{B93B9E23-EA26-43E3-976C-DE538321AD59}" labelid="{8EF62D40-669A-4294-9B49-F2BDAFE7F7FA}">
+                        <labels>
+                          <label description="Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="lab_capacity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="lab_capacity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5E8AB846-BC7F-4BC7-9A21-371CED1FD43B}" labelid="{3490CCDA-E4C4-4506-ADB8-F3973FC07301}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="lab_address" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_address" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6F1502EE-3747-4C0A-A6FA-19F019C7D455}" labelid="{DC7F54EF-ECAA-4EF3-A6C9-BC207D6A9EB5}">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="lab_isactive" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="lab_isactive" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{C49D8D12-AE20-48C9-A087-AC88B1648AA5}" labelid="{858DF785-65D2-4973-A2CF-AF5CCBED2FB3}">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="lab_notes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="lab_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{C2356086-513B-478A-8E36-C48769B92C94}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Warehouse Items" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" uniqueid="{9B4F43B5-A7AF-414E-9F9D-5FAF68731DC1}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>lab_warehouseitem</TargetEntityType>
+                            <ViewId>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</ViewId>
+                            <ViewIds>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</ViewIds>
+                            <RelationshipName>lab_lab_warehouselocation_lab_warehouseitem_locationid</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{22633174-1436-45fa-bfc6-116972cb2516}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{41222469-9058-4a18-85d2-0637c9c1c453}" showlabel="false" labelid="{4f7aafaa-e14b-47ca-85c0-56799bb55f0c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e3830bc5-cdf4-4a8f-814f-dab5d50a7dde}" showlabel="false" labelid="{33f67f06-e046-4d2c-abe6-ba1ba4276b01}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3764e248-7fab-4500-8c40-554f9a14eda4}" showlabel="false" labelid="{728176cc-f3d5-47d0-a9f4-e1fe917a80c4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a7f4ddfa-47d4-4ebf-90ed-b07337adbb95}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d9d0c898-6c5d-46da-89d5-d4d023d16176}" showlabel="false" labelid="{44ad5c4c-90c1-4269-b7d2-f29be8b554d7}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{306cfc8a-1cd4-4b1a-9459-b5daf57b5298}" showlabel="false" labelid="{ad4c9d8f-60fb-4e0b-adc9-ce7d2bf9c46e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1c661e65-956e-453e-83ce-63f3a4b5ae85}" showlabel="false" labelid="{f44a114c-8738-465a-9f90-ce7c46df38b5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{9B4F43B5-A7AF-414E-9F9D-5FAF68731DC1}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters />
+          </customControl>
+          <customControl formFactor="0" name="talxis_TALXIS.PCF.Grid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</ViewId>
+                <TargetEntityType>lab_warehouseitem</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>lab_lab_warehouselocation_lab_warehouseitem_locationid</RelationshipName>
+                <FilteredViewIds>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</FilteredViewIds>
+              </data-set>
+              <Columns type="Multiple" static="true">[ { "name": "lab_category", "grouping": { "isGrouped": true } }, { "name": "lab_availablequantity", "aggregation": { "aggregationFunction": "sum" } }, { "name": "lab_reorderpoint", "isHidden": true } ]</Columns>
+              <EnableGrouping type="Enum" static="true">true</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">true</EnableAggregation>
+              <EnableOptionSetColors type="Enum" static="true">true</EnableOptionSetColors>
+              <ClientApiWebresourceName type="SingleLine.Text" static="true">lab_main.js</ClientApiWebresourceName>
+              <ClientApiFunctionName type="SingleLine.Text" static="true">WarehouseScripts.GridApi.onDatasetControlInitialized</ClientApiFunctionName>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="talxis_TALXIS.PCF.Grid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</ViewId>
+                <TargetEntityType>lab_warehouseitem</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>lab_lab_warehouselocation_lab_warehouseitem_locationid</RelationshipName>
+                <FilteredViewIds>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</FilteredViewIds>
+              </data-set>
+              <Columns type="Multiple" static="true">[ { "name": "lab_category", "grouping": { "isGrouped": true } }, { "name": "lab_availablequantity", "aggregation": { "aggregationFunction": "sum" } }, { "name": "lab_reorderpoint", "isHidden": true } ]</Columns>
+              <EnableGrouping type="Enum" static="true">true</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">true</EnableAggregation>
+              <EnableOptionSetColors type="Enum" static="true">true</EnableOptionSetColors>
+              <ClientApiWebresourceName type="SingleLine.Text" static="true">lab_main.js</ClientApiWebresourceName>
+              <ClientApiFunctionName type="SingleLine.Text" static="true">WarehouseScripts.GridApi.onDatasetControlInitialized</ClientApiFunctionName>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="talxis_TALXIS.PCF.Grid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</ViewId>
+                <TargetEntityType>lab_warehouseitem</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>lab_lab_warehouselocation_lab_warehouseitem_locationid</RelationshipName>
+                <FilteredViewIds>{f7dd25fb-c78f-4e22-8c55-02d445a5cf25}</FilteredViewIds>
+              </data-set>
+              <Columns type="Multiple" static="true">[ { "name": "lab_category", "grouping": { "isGrouped": true } }, { "name": "lab_availablequantity", "aggregation": { "aggregationFunction": "sum" } }, { "name": "lab_reorderpoint", "isHidden": true } ]</Columns>
+              <EnableGrouping type="Enum" static="true">true</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">true</EnableAggregation>
+              <EnableOptionSetColors type="Enum" static="true">true</EnableOptionSetColors>
+              <ClientApiWebresourceName type="SingleLine.Text" static="true">lab_main.js</ClientApiWebresourceName>
+              <ClientApiFunctionName type="SingleLine.Text" static="true">WarehouseScripts.GridApi.onDatasetControlInitialized</ClientApiFunctionName>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="lab_main.js" libraryUniqueId="{82fedf5b-cf2e-4479-b06d-97f6326ceba7}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="true">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.LocationForm.onLoad" passExecutionContext="true" enabled="true" handlerUniqueId="{41726bc5-c37d-430c-8081-156d61188ba3}" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Generated Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

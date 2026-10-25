@@ -19,5 +19,16 @@
   "packageDeployerScaffolded": true,
   "dataModelScaffolded": true,
   "columnsScaffolded": true,
-  "securityScaffolded": true
+  "securityScaffolded": true,
+  "uiSolutionScaffolded": true,
+  "sitemapScaffolded": true,
+  "warehouselocationFormGuid": "8689669c-df41-444d-94bd-181794eb8ef0",
+  "warehouseitemFormGuid": "779ce3ae-0c71-479b-b7f8-1dd56b98a279",
+  "warehousetransactionFormGuid": "10441fa9-b44c-4178-8409-fcb5e154a657",
+  "formsScaffolded": true,
+  "viewsSubgridsScaffolded": true,
+  "codeAppScaffolded": true,
+  "formScriptsScaffolded": true,
+  "ribbonScaffolded": true,
+  "gridControlScaffolded": true
 }
