@@ -2,5 +2,6 @@
   <Folder Name="/src/">
     <Project Path="src/Packages.Main/Packages.Main.csproj" />
     <Project Path="src/Solutions.DataModel/Solutions.DataModel.csproj" />
+    <Project Path="src/Solutions.Security/Solutions.Security.csproj" />
   </Folder>
 </Solution>
